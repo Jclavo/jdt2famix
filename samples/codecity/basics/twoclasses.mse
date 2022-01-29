@@ -10,6 +10,7 @@
       (FAMIX.Method
           (name 'methodA')
           (signature 'methodA()')
+          (type 'typeA')
           (belongsTo (idref: 3)))
       (FAMIX.Class (id: 4)
           (name 'ClassB')
@@ -17,6 +18,7 @@
       (FAMIX.Method
           (name 'methodB')
           (signature 'methodB()')
+          (type 'typeB')
           (belongsTo (idref: 4)))
   )
 )
