@@ -1,0 +1,111 @@
+( 
+  (FAMIX.Namespace (id: 1)
+    (name 'carga_saude_familia_namespace'))
+  (FAMIX.Package (id: 200)
+    (name 'carga_saude_familia_package'))
+
+  (FAMIX.Class (id: 2)
+      (name 'transf_elastic_carga_saude_familia')
+      (container (ref: 1))
+      (parentPackage (ref: 200)))
+  (FAMIX.Method
+      (name 'coberturaSF')
+      (type 'TableInput')
+      (parentType (ref: 2)))
+  (FAMIX.Method
+      (name 'sf')
+      (type 'SelectValues')
+      (parentType (ref: 2)))
+  (FAMIX.Method
+      (name 'coberturaSF')
+      (type 'TableInput')
+      (parentType (ref: 2)))
+
+  (FAMIX.Class (id: 3)
+      (name 'transf_elastic_carga_saude_familia_uf')
+      (container (ref: 1))
+      (parentPackage (ref: 200)))
+  (FAMIX.Method
+      (name 'coberturaSfUf.Table input')
+      (type 'TableInput')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'id.Add sequence')
+      (type 'Sequence')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'qtde.Add constants')
+      (type 'Constant')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'Database join')
+      (type 'DBJoin')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'Strings cut')
+      (type 'StringCut')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'Select values')
+      (type 'SelectValues')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'Concat fields')
+      (type 'ConcatFields')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'dataCompetencia.Modified JavaScript value')
+      (type 'ScriptValueMod')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'tbAnoTempo.Database join')
+      (type 'DBJoin')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'Select values 2')
+      (type 'SelectValues')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'elastic_cobertura_saude_familia_uf.Table output')
+      (type 'TableOutput')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'Block this step until steps finish')
+      (type 'BlockUntilStepsFinish')
+      (parentType (ref: 3)))
+  (FAMIX.Method
+      (name 'Execute SQL script')
+      (type 'ExecSQL')
+      (parentType (ref: 3)))
+
+  (FAMIX.Class (id: 4)
+      (name 'transf_elastic_carga_saude_familia_municipio')
+      (container (ref: 1))
+      (parentPackage (ref: 200)))
+  (FAMIX.Method
+      (name 'coberturaSfMunicipio.Table input')
+      (type 'TableInput')
+      (parentType (ref: 4)))
+  (FAMIX.Method
+      (name 'id.Add sequence')
+      (type 'Sequence')
+      (parentType (ref: 4)))
+  (FAMIX.Method
+      (name 'dataCompetencia.Modified JavaScript value 2')
+      (type 'ScriptValueMod')
+      (parentType (ref: 4)))
+  (FAMIX.Method
+      (name 'Select values')
+      (type 'SelectValues')
+      (parentType (ref: 4)))
+  (FAMIX.Method
+      (name 'elastic_cobertura_saude_familia_municipio.Table output')
+      (type 'TableOutput')
+      (parentType (ref: 4)))
+  (FAMIX.Method
+      (name 'Execute SQL script')
+      (type 'ExecSQL')
+      (parentType (ref: 4)))
+)
+
+
