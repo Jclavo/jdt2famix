@@ -1,5 +1,5 @@
 (Moose.Model (id: 1)
-	(name 'samplee')
+	(name 'oneclass')
 	(entity
 		(FAMIX.Namespace (id: 2)
 			(name 'aNamespace::abc')

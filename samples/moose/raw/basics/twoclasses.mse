@@ -1,0 +1,26 @@
+( 
+  (FAMIX.Namespace (id: 1)
+    (name 'aNamespace'))
+  (FAMIX.Package (id: 200)
+    (name 'aPackage'))
+
+  (FAMIX.Class (id: 2)
+    (name 'ClassA')
+    (container (ref: 1))
+    (parentPackage (ref: 201)))
+  (FAMIX.Method
+    (name 'methodA')
+    (signature 'methodA()')
+    (parentType (ref: 2)))
+
+  (FAMIX.Class (id: 3)
+    (name 'ClassB')
+    (container (ref: 1))
+    (parentPackage (ref: 201)))
+  (FAMIX.Method
+    (name 'methodB')
+    (signature 'methodB()')
+    (parentType (ref: 3)))
+)
+
+
