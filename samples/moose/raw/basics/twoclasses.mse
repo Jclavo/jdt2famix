@@ -11,6 +11,7 @@
   (FAMIX.Method
     (name 'methodA')
     (signature 'methodA()')
+    (type 'typeA')
     (parentType (ref: 2)))
 
   (FAMIX.Class (id: 3)
@@ -20,6 +21,7 @@
   (FAMIX.Method
     (name 'methodB')
     (signature 'methodB()')
+    (type 'typeB')
     (parentType (ref: 3)))
 )
 
