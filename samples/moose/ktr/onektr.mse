@@ -7,7 +7,7 @@
   (FAMIX.Class (id: 2)
     (name 'Transf_Elastic_Carga_Saude_Familia')
     (container (ref: 1))
-    (parentPackage (ref: 201)))
+    (parentPackage (ref: 200)))
   (FAMIX.Method
     (name 'coberturaSF')
     (type 'TableInput')
