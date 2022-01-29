@@ -9,17 +9,14 @@
             (belongsTo (idref: 2)))
         (FAMIX.Method
             (name 'coberturaSF')
-            (signature 'coberturaSF()')
             (type 'TableInput')
             (belongsTo (idref: 3)))
         (FAMIX.Method
             (name 'sf')
-            (signature 'sf()')
             (type 'SelectValues')
             (belongsTo (idref: 3)))
         (FAMIX.Method
             (name 'coberturaSF')
-            (signature 'coberturaSF()')
             (type 'TableInput')
             (belongsTo (idref: 3)))
   )
