@@ -1,0 +1,13 @@
+(Moose.Model (id: 1)
+	(name 'samplee')
+	(entity
+		(FAMIX.Namespace (id: 2)
+			(name 'aNamespace::abc')
+			(stub false))
+        (FAMIX.Class (id: 3)
+			(name 'Myclass')
+			(ATFD 0.0)
+			(belongsTo (idref: 2)))
+    )
+)
+        
