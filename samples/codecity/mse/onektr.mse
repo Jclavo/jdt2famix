@@ -1,0 +1,28 @@
+(Moose.Model (id: 1)
+	(name 'Transf_Elastic_Carga_Saude_Familia')
+	(entity
+            (FAMIX.Namespace (id: 2)
+            (name 'ktrNamespace')
+            (stub false))
+        (FAMIX.Class (id: 3)
+            (name 'Transf_Elastic_Carga_Saude_Familia')
+            (belongsTo (idref: 2)))
+        (FAMIX.Method
+            (name 'coberturaSF')
+            (signature 'coberturaSF()')
+            (type 'TableInput')
+            (belongsTo (idref: 3)))
+        (FAMIX.Method
+            (name 'sf')
+            (signature 'sf()')
+            (type 'SelectValues')
+            (belongsTo (idref: 3)))
+        (FAMIX.Method
+            (name 'coberturaSF')
+            (signature 'coberturaSF()')
+            (type 'TableInput')
+            (belongsTo (idref: 3)))
+  )
+)
+
+

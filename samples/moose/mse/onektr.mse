@@ -1,0 +1,25 @@
+( 
+  (FAMIX.Namespace (id: 1)
+    (name 'ktrNamespace'))
+  (FAMIX.Package (id: 200)
+    (name 'ktrPackage'))
+
+  (FAMIX.Class (id: 2)
+    (name 'Transf_Elastic_Carga_Saude_Familia')
+    (container (ref: 1))
+    (parentPackage (ref: 201)))
+  (FAMIX.Method
+    (name 'coberturaSF')
+    (type 'TableInput')
+    (parentType (ref: 2)))
+  (FAMIX.Method
+    (name 'sf')
+    (type 'SelectValues')
+    (parentType (ref: 2)))
+  (FAMIX.Method
+    (name 'coberturaSF')
+    (type 'TableInput')
+    (parentType (ref: 2)))
+)
+
+
