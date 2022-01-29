@@ -1,0 +1,110 @@
+(Moose.Model (id: 1)
+	(name 'carga_saude_familia')
+	(entity
+            (FAMIX.Namespace (id: 2)
+            (name 'carga_saude_familia_namespace')
+            (stub false))
+        (FAMIX.Class (id: 3)
+            (name 'transf_elastic_carga_saude_familia')
+            (belongsTo (idref: 2)))
+        (FAMIX.Method
+            (name 'coberturaSF')
+            (type 'TableInput')
+            (belongsTo (idref: 3)))
+        (FAMIX.Method
+            (name 'sf')
+            (type 'SelectValues')
+            (belongsTo (idref: 3)))
+        (FAMIX.Method
+            (name 'coberturaSF')
+            (type 'TableInput')
+            (belongsTo (idref: 3)))
+
+        (FAMIX.Class (id: 4)
+            (name 'transf_elastic_carga_saude_familia_uf')
+            (belongsTo (idref: 2)))
+        (FAMIX.Method
+            (name 'coberturaSfUf.Table input')
+            (type 'TableInput')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'id.Add sequence')
+            (type 'Sequence')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'qtde.Add constants')
+            (type 'Constant')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'Database join')
+            (type 'DBJoin')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'Strings cut')
+            (type 'StringCut')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'Select values')
+            (type 'SelectValues')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'Concat fields')
+            (type 'ConcatFields')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'dataCompetencia.Modified JavaScript value')
+            (type 'ScriptValueMod')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'tbAnoTempo.Database join')
+            (type 'DBJoin')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'Select values 2')
+            (type 'SelectValues')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'elastic_cobertura_saude_familia_uf.Table output')
+            (type 'TableOutput')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'Block this step until steps finish')
+            (type 'BlockUntilStepsFinish')
+            (belongsTo (idref: 4)))
+        (FAMIX.Method
+            (name 'Execute SQL script')
+            (type 'ExecSQL')
+            (belongsTo (idref: 4)))
+        
+        (FAMIX.Class (id: 5)
+            (name 'transf_elastic_carga_saude_familia_municipio')
+            (belongsTo (idref: 2)))
+        (FAMIX.Method
+            (name 'coberturaSfMunicipio.Table input')
+            (type 'TableInput')
+            (belongsTo (idref: 5)))
+        (FAMIX.Method
+            (name 'id.Add sequence')
+            (type 'Sequence')
+            (belongsTo (idref: 5)))
+        (FAMIX.Method
+            (name 'dataCompetencia.Modified JavaScript value 2')
+            (type 'ScriptValueMod')
+            (belongsTo (idref: 5)))
+        (FAMIX.Method
+            (name 'Select values')
+            (type 'SelectValues')
+            (belongsTo (idref: 5)))
+        (FAMIX.Method
+            (name 'elastic_cobertura_saude_familia_municipio.Table output')
+            (type 'TableOutput')
+            (belongsTo (idref: 5)))
+        (FAMIX.Method
+            (name 'Execute SQL script')
+            (type 'ExecSQL')
+            (belongsTo (idref: 5)))
+  )
+)
+
+
+
