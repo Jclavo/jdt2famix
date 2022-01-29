@@ -1,0 +1,24 @@
+(Moose.Model (id: 1)
+	(name 'TwoClasses')
+	(entity
+		  (FAMIX.Namespace (id: 2)
+          (name 'aNamespace::abc')
+          (stub false))
+      (FAMIX.Class (id: 3)
+          (name 'ClassA')
+          (belongsTo (idref: 2)))
+      (FAMIX.Method
+          (name 'methodA')
+          (signature 'methodA()')
+          (belongsTo (idref: 3)))
+      (FAMIX.Class (id: 4)
+          (name 'ClassB')
+          (belongsTo (idref: 2)))
+      (FAMIX.Method
+          (name 'methodB')
+          (signature 'methodB()')
+          (belongsTo (idref: 4)))
+  )
+)
+
+
