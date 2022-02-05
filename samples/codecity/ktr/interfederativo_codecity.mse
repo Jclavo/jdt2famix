@@ -1,0 +1,261 @@
+(Moose.Model 
+(id: 1) 
+(name 'interfederativo') 
+(entity 
+	(FAMIX.Namespace 
+	(id: 2) 
+	(name 'interfederativoNamespace'))
+	
+(FAMIX.Class 
+	(id: 3) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_104_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 4) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_100_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 5) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_102_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 6) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_107_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 7) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_100_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 7)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 7)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 7)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 7)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 7)))
+
+(FAMIX.Class 
+	(id: 8) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_105_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 9) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_101_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 9)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 9)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 9)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 9)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 9)))
+
+(FAMIX.Class 
+	(id: 10) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_106_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 11) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_103_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 12) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_101_2.ktr') 
+	(belongsTo (idref: 2)))
+
+(FAMIX.Class 
+	(id: 13) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_104_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 13)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 13)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 13)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 13)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 13)))
+
+(FAMIX.Class 
+	(id: 14) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_103_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 14)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 14)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 14)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 14)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 14)))
+
+(FAMIX.Class 
+	(id: 15) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_106_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 15)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 15)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 15)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 15)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 15)))
+
+(FAMIX.Class 
+	(id: 16) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_102_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 16)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 16)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 16)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 16)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 16)))
+
+(FAMIX.Class 
+	(id: 17) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_107_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 17)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 17)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 17)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 17)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 17)))
+
+(FAMIX.Class 
+	(id: 18) 
+	(name 'Transf_Elastic_Restrito_Saps_Pacto_105_1.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'Table input') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 18)))
+(FAMIX.Method 
+	(name 'Select values') 
+	(type 'SelectValues()') 
+	(belongsTo (idref: 18)))
+(FAMIX.Method 
+	(name 'portePopulacional.Modified JavaScript value') 
+	(type 'ScriptValueMod()') 
+	(belongsTo (idref: 18)))
+(FAMIX.Method 
+	(name 'Table output') 
+	(type 'TableOutput()') 
+	(belongsTo (idref: 18)))
+(FAMIX.Method 
+	(name 'Add sequence') 
+	(type 'Sequence()') 
+	(belongsTo (idref: 18)))
+
+(FAMIX.Class 
+	(id: 19) 
+	(name 'teste.ktr') 
+	(belongsTo (idref: 2)))
+(FAMIX.Method 
+	(name 'sql_regiao') 
+	(type 'ExecSQL()') 
+	(belongsTo (idref: 19)))
+(FAMIX.Method 
+	(name 'regiao_obito_materno') 
+	(type 'TableInput()') 
+	(belongsTo (idref: 19)))
+))
