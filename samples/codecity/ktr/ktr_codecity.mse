@@ -1,4 +1,4 @@
-(MOOSE.Model 
+(Moose.Model 
 (id: 1) 
 (name 'myfirstktr') 
 (entity 
