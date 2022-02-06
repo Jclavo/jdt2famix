@@ -1,0 +1,80 @@
+(Moose.Model (id: 1)
+	(name 'project1')
+	(entity
+        (FAMIX.Namespace (id: 2)
+            (name 'project1::job1')
+            (stub false)
+        )
+        (FAMIX.Class (id: 3)
+            (name 'class3')
+            (belongsTo (idref: 2))
+        )
+        (FAMIX.Method
+            (name 'method3.1')
+            (type 'method3.1()')
+            (belongsTo (idref: 3))
+        )
+        (FAMIX.Method
+            (name 'method3.2')
+            (type 'method3.2()')
+            (belongsTo (idref: 3))
+        )
+        (FAMIX.Method
+            (name 'method3.3')
+            (type 'method3.3()')
+            (belongsTo (idref: 3))
+        )
+        (FAMIX.Method
+            (name 'method3.4')
+            (type 'method3.4()')
+            (belongsTo (idref: 3))
+        )
+        (FAMIX.Method
+            (name 'method3.5')
+            (type 'method3.5()')
+            (belongsTo (idref: 3))
+        )
+
+        (FAMIX.Class (id: 4)
+            (name 'class4')
+            (belongsTo (idref: 2))
+        )
+        (FAMIX.Method
+            (name 'method4.1')
+            (type 'method4.1')
+            (belongsTo (idref: 4))
+        )
+        (FAMIX.Method
+            (name 'method4.2')
+            (type 'method4.2')
+            (belongsTo (idref: 4))
+        )
+        (FAMIX.Method
+            (name 'method4.3')
+            (type 'method4.3')
+            (belongsTo (idref: 4))
+        )
+
+        (FAMIX.Class (id: 5)
+            (name 'class5')
+            (belongsTo (idref: 2))
+        )
+        (FAMIX.Method
+            (name 'method5.1')
+            (type 'method5.1')
+            (belongsTo (idref: 5))
+        )
+        (FAMIX.Method
+            (name 'method5.2')
+            (type 'method5.2')
+            (belongsTo (idref: 5))
+        )
+        (FAMIX.Method
+            (name 'method5.3')
+            (type 'method5.3')
+            (belongsTo (idref: 5))
+        )
+  )
+)
+
+
