@@ -9,20 +9,20 @@
   
     (FAMIX.Class 
       (id: 3) 
-      (name Transf_Elastic_Carga_Saude_Familia.ktr)
+      (name 'Transf_Elastic_Carga_Saude_Familia.ktr')
       (belongsTo (idref: 2))
     )
     (FAMIX.Method 
-      (name elastic_cobertura_sf.Table output) 
-      (type TableOutput()) 
+      (name 'elastic_cobertura_sf.Table output') 
+      (type 'TableOutput()') 
       (belongsTo (idref: 3))
     )(FAMIX.Method 
-      (name sf.Select values) 
-      (type SelectValues()) 
+      (name 'sf.Select values') 
+      (type 'SelectValues()') 
       (belongsTo (idref: 3))
     )(FAMIX.Method 
-      (name coberturaSFTable input) 
-      (type TableInput()) 
+      (name 'coberturaSFTable input') 
+      (type 'TableInput()') 
       (belongsTo (idref: 3))
     )
     
