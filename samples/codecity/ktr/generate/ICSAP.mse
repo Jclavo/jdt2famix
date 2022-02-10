@@ -1,0 +1,590 @@
+(Moose.Model 
+(id: 1) 
+(name ICSAP)
+(entity 
+  (FAMIX.Namespace 
+    (id: 2) 
+    (name ICSAP)
+  )
+  
+    (FAMIX.Class 
+      (id: 3) 
+      (name 'Transf_Nao_Icsap_Port_221.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'PegaFaixaEtariaIcsap') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 3))
+    )
+  
+    (FAMIX.Class 
+      (id: 4) 
+      (name 'Transf_Icsap_Port_221_causas_sensiveis_denominador.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 4))
+    )(FAMIX.Method 
+      (name 'PegaFaixaEtariaIcsap') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 4))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 4))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 4))
+    )
+  
+    (FAMIX.Class 
+      (id: 5) 
+      (name 'Transf_icsap_port_221_causas_sensiveis_numerador.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 5))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 5))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 5))
+    )(FAMIX.Method 
+      (name 'PegaFaixaEtariaIcsap') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 5))
+    )
+  
+    (FAMIX.Class 
+      (id: 6) 
+      (name 'Transf_verifica_cids.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'cid10') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 6))
+    )(FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 6))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 6))
+    )
+  
+    (FAMIX.Class 
+      (id: 7) 
+      (name 'Transf_icsap_port_221_causas_sensiveis_numerador_brasil.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 7))
+    )
+  
+    (FAMIX.Class 
+      (id: 8) 
+      (name 'Transf_icsap_port_221_causas_sensiveis_numerador_icsap_brasil.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 8))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 8))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 8))
+    )
+  
+    (FAMIX.Class 
+      (id: 9) 
+      (name 'Transf_Nao_Icsap_Port_221_brasil_fiocruz.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 9))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 9))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 9))
+    )
+  
+    (FAMIX.Class 
+      (id: 10) 
+      (name 'Transf_Nao_Icsap_ocde.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'PegaFaixaEtariaIcsap') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 10))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 10))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 10))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 10))
+    )
+  
+    (FAMIX.Class 
+      (id: 11) 
+      (name 'Transf_Nao_Icsap_Port_221_icsap_brasil.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 11))
+    )
+  
+    (FAMIX.Class 
+      (id: 12) 
+      (name 'Transf_icsap_ocde_causas_sensiveis_numerador.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'pegaGrupo') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 12))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 12))
+    )(FAMIX.Method 
+      (name 'PegaFaixaEtariaIcsap') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 12))
+    )(FAMIX.Method 
+      (name 'Table output 2 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 12))
+    )(FAMIX.Method 
+      (name 'Select values 2') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 12))
+    )
+  
+    (FAMIX.Class 
+      (id: 13) 
+      (name 'Transf_Processa_Variavel.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Get variables 2') 
+      (type 'GetVariable()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Table input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 13))
+    )
+  
+    (FAMIX.Class 
+      (id: 14) 
+      (name 'Transf_icsap_port_221_causas_sensiveis_numerador_brasil_fiocruz.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 14))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 14))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 14))
+    )
+  
+    (FAMIX.Class 
+      (id: 15) 
+      (name 'Transf_Lista_indicador.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Copy rows to result') 
+      (type 'RowsToResult()') 
+      (belongsTo (idref: 15))
+    )(FAMIX.Method 
+      (name 'Table input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 15))
+    )
+  
+    (FAMIX.Class 
+      (id: 16) 
+      (name 'ICSAP_OCDE_checa_indice.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Calculator') 
+      (type 'Calculator()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Modified JavaScript value') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Add sequence 2') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Mensagem rodou') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Registra no slack que deu erro') 
+      (type 'Rest()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Filter rows') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Add sequence') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Select na tabela') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'HTTP client') 
+      (type 'HTTP()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Split field to rows') 
+      (type 'SplitFieldToRows3()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Merge join') 
+      (type 'MergeJoin()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Switch / case') 
+      (type 'SwitchCase()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Identify last row in a stream') 
+      (type 'DetectLastRow()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Mensagem de erro') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'lista de urls') 
+      (type 'RowGenerator()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Check if webservice is available') 
+      (type 'WebServiceAvailable()') 
+      (belongsTo (idref: 16))
+    )(FAMIX.Method 
+      (name 'Registra no slack que rodou') 
+      (type 'Rest()') 
+      (belongsTo (idref: 16))
+    )
+  
+    (FAMIX.Class 
+      (id: 17) 
+      (name 'Transf_Processa_Variavel_portaria_221.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Get variables 2') 
+      (type 'GetVariable()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'portePopulacional.Modified JavaScript value') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'Filter rows 2') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'Select values 2') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'Set field value 2') 
+      (type 'SetValueField()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'Database join') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'MongoDB output') 
+      (type 'MongoDbOutput()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'If field value is null') 
+      (type 'IfNull()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'Table input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 17))
+    )(FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 17))
+    )
+  
+    (FAMIX.Class 
+      (id: 18) 
+      (name 'Transf_verifica_cids.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 18))
+    )(FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 18))
+    )
+  
+    (FAMIX.Class 
+      (id: 19) 
+      (name 'Transf_Processa_Variavel_ocde.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Set field value 2') 
+      (type 'SetValueField()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'portePopulacional.Modified JavaScript value 2') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'Filter rows 2') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'Table input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'Database join') 
+      (type 'DBJoin()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'If field value is null') 
+      (type 'IfNull()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'Get variables 2') 
+      (type 'GetVariable()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'Select values 2') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 19))
+    )(FAMIX.Method 
+      (name 'MongoDB output') 
+      (type 'MongoDbOutput()') 
+      (belongsTo (idref: 19))
+    )
+  
+    (FAMIX.Class 
+      (id: 20) 
+      (name 'ICSAP_PORT_221_checa_indice.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Calculator') 
+      (type 'Calculator()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Modified JavaScript value') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Add sequence 2') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Select na tabela') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Registra no slack que deu erro') 
+      (type 'Rest()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Filter rows') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Add sequence') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Identify last row in a stream') 
+      (type 'DetectLastRow()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Mensagem de erro') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'lista de urls') 
+      (type 'RowGenerator()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Mensagem rodou') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'HTTP client') 
+      (type 'HTTP()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Split field to rows') 
+      (type 'SplitFieldToRows3()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Merge join') 
+      (type 'MergeJoin()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Switch / case') 
+      (type 'SwitchCase()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Check if webservice is available') 
+      (type 'WebServiceAvailable()') 
+      (belongsTo (idref: 20))
+    )(FAMIX.Method 
+      (name 'Registra no slack que rodou') 
+      (type 'Rest()') 
+      (belongsTo (idref: 20))
+    )
+  
+    (FAMIX.Class 
+      (id: 21) 
+      (name 'Transf_icsap_ocde_causas_sensiveis_denominador_ibge_ano_sexo.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 21))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 21))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 21))
+    )
+  
+    (FAMIX.Class 
+      (id: 22) 
+      (name 'Transf_icsap_port_221_causas_sensiveis_denominador_ibge_ano_sexo.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 22))
+    )(FAMIX.Method 
+      (name 'Table output 2') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 22))
+    )(FAMIX.Method 
+      (name 'transf_aih 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 22))
+    )
+    
+))
