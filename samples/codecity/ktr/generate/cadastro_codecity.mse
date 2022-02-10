@@ -1,0 +1,471 @@
+(Moose.Model 
+(id: 1) 
+(name cadastro)
+(entity 
+  (FAMIX.Namespace 
+    (id: 2) 
+    (name cadastro)
+  )
+  
+    (FAMIX.Class 
+      (id: 3) 
+      (name 'Desempenho_checa_indice.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'lista de urls') 
+      (type 'RowGenerator()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Identify last row in a stream') 
+      (type 'DetectLastRow()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Add sequence 2') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Filter rows') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Add sequence') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Split field to rows') 
+      (type 'SplitFieldToRows3()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Select na tabela') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Calculator') 
+      (type 'Calculator()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Mensagem de erro') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Switch / case') 
+      (type 'SwitchCase()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Mensagem rodou') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Merge join') 
+      (type 'MergeJoin()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Registra no slack que deu erro') 
+      (type 'Rest()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'HTTP client') 
+      (type 'HTTP()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Modified JavaScript value') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 3))
+    )(FAMIX.Method 
+      (name 'Registra no slack que rodou') 
+      (type 'Rest()') 
+      (belongsTo (idref: 3))
+    )
+  
+    (FAMIX.Class 
+      (id: 4) 
+      (name 'Transf_Carga_Cadastro_Geral_2de3.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 4))
+    )(FAMIX.Method 
+      (name 'inicioTable input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 4))
+    )(FAMIX.Method 
+      (name 'Add constants') 
+      (type 'Constant()') 
+      (belongsTo (idref: 4))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 4))
+    )
+  
+    (FAMIX.Class 
+      (id: 5) 
+      (name 'Transf_Carga_Cadastro_Geral_3de3.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 5))
+    )(FAMIX.Method 
+      (name 'Add constants') 
+      (type 'Constant()') 
+      (belongsTo (idref: 5))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 5))
+    )(FAMIX.Method 
+      (name 'inicioTable input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 5))
+    )
+  
+    (FAMIX.Class 
+      (id: 6) 
+      (name 'Transf_Carga_Cadastro_Geral_Beneficiario_Cnes.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Add constants 2 2 2') 
+      (type 'Constant()') 
+      (belongsTo (idref: 6))
+    )(FAMIX.Method 
+      (name 'Select values 2 2 2') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 6))
+    )(FAMIX.Method 
+      (name 'CNES.Table input 2') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 6))
+    )(FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 6))
+    )
+  
+    (FAMIX.Class 
+      (id: 7) 
+      (name 'Restrito_Equipes_checa_indice.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Mensagem rodou') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Identify last row in a stream') 
+      (type 'DetectLastRow()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Add sequence 2') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Mensagem de erro') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Filter rows') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'lista de urls') 
+      (type 'RowGenerator()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Add sequence') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Split field to rows') 
+      (type 'SplitFieldToRows3()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Calculator') 
+      (type 'Calculator()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Switch / case') 
+      (type 'SwitchCase()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Registra no slack que deu erro') 
+      (type 'Rest()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'HTTP client') 
+      (type 'HTTP()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Modified JavaScript value') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Registra no slack que rodou') 
+      (type 'Rest()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Select na tabela') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 7))
+    )(FAMIX.Method 
+      (name 'Merge join') 
+      (type 'MergeJoin()') 
+      (belongsTo (idref: 7))
+    )
+  
+    (FAMIX.Class 
+      (id: 8) 
+      (name 'Transf_Carga_Cadastro_Geral_1de3.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Add constants') 
+      (type 'Constant()') 
+      (belongsTo (idref: 8))
+    )(FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 8))
+    )(FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 8))
+    )(FAMIX.Method 
+      (name 'inicioTable input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 8))
+    )
+  
+    (FAMIX.Class 
+      (id: 9) 
+      (name 'Transf_Carga_Cadastro_Geral_Beneficiario_BrasilEstado.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 9))
+    )(FAMIX.Method 
+      (name 'BrasilEstado.Table input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 9))
+    )(FAMIX.Method 
+      (name 'Select values 2 2') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 9))
+    )(FAMIX.Method 
+      (name 'Add constants 2 2') 
+      (type 'Constant()') 
+      (belongsTo (idref: 9))
+    )
+  
+    (FAMIX.Class 
+      (id: 10) 
+      (name 'Transf_Carga_Cadastro_Geral_Beneficiario_Regiao_Ibge.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Select values 2 2 3') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 10))
+    )(FAMIX.Method 
+      (name 'RegiaoIbge.Table input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 10))
+    )(FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 10))
+    )(FAMIX.Method 
+      (name 'Add constants 2 2 3') 
+      (type 'Constant()') 
+      (belongsTo (idref: 10))
+    )
+  
+    (FAMIX.Class 
+      (id: 11) 
+      (name 'Restrito_Cadastro_00_checa_indice.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Identify last row in a stream') 
+      (type 'DetectLastRow()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Add sequence 2') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Mensagem rodou') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Filter rows') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Add sequence') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Split field to rows') 
+      (type 'SplitFieldToRows3()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Mensagem de erro') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Calculator') 
+      (type 'Calculator()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Select na tabela') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Merge join') 
+      (type 'MergeJoin()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Registra no slack que deu erro') 
+      (type 'Rest()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'HTTP client') 
+      (type 'HTTP()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Modified JavaScript value') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Registra no slack que rodou') 
+      (type 'Rest()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'Switch / case') 
+      (type 'SwitchCase()') 
+      (belongsTo (idref: 11))
+    )(FAMIX.Method 
+      (name 'lista de urls') 
+      (type 'RowGenerator()') 
+      (belongsTo (idref: 11))
+    )
+  
+    (FAMIX.Class 
+      (id: 12) 
+      (name 'Transf_Carga_Cadastro_Geral_Beneficiario_Ine.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Table output') 
+      (type 'TableOutput()') 
+      (belongsTo (idref: 12))
+    )(FAMIX.Method 
+      (name 'Add constants 2') 
+      (type 'Constant()') 
+      (belongsTo (idref: 12))
+    )(FAMIX.Method 
+      (name 'Select values 2') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 12))
+    )(FAMIX.Method 
+      (name 'INE.Table input') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 12))
+    )
+  
+    (FAMIX.Class 
+      (id: 13) 
+      (name 'Cadastro_00_checa_indice.ktr')
+      (belongsTo (idref: 2))
+    )
+    (FAMIX.Method 
+      (name 'Select values') 
+      (type 'SelectValues()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Add sequence 2') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Select na tabela') 
+      (type 'TableInput()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Filter rows') 
+      (type 'FilterRows()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Add sequence') 
+      (type 'Sequence()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Split field to rows') 
+      (type 'SplitFieldToRows3()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Calculator') 
+      (type 'Calculator()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Merge join') 
+      (type 'MergeJoin()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Identify last row in a stream') 
+      (type 'DetectLastRow()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'lista de urls') 
+      (type 'RowGenerator()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Registra no slack que deu erro') 
+      (type 'Rest()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'HTTP client') 
+      (type 'HTTP()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Mensagem de erro') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Modified JavaScript value') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Registra no slack que rodou') 
+      (type 'Rest()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Switch / case') 
+      (type 'SwitchCase()') 
+      (belongsTo (idref: 13))
+    )(FAMIX.Method 
+      (name 'Mensagem rodou') 
+      (type 'ScriptValueMod()') 
+      (belongsTo (idref: 13))
+    )
+    
+))
