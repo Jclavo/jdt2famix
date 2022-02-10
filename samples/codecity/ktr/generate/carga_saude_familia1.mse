@@ -1,10 +1,10 @@
 (Moose.Model 
 (id: 1) 
-(name carga_saude_familia)
+(name carga_saude_familia1)
 (entity 
   (FAMIX.Namespace 
     (id: 2) 
-    (name carga_saude_familia)
+    (name carga_saude_familia1)
   )
   
     (FAMIX.Class 
@@ -16,14 +16,14 @@
       (name elastic_cobertura_sf.Table output) 
       (type TableOutput()) 
       (belongsTo (idref: 3))
-    (FAMIX.Method 
+    )(FAMIX.Method 
       (name sf.Select values) 
       (type SelectValues()) 
       (belongsTo (idref: 3))
-    (FAMIX.Method 
+    )(FAMIX.Method 
       (name coberturaSFTable input) 
       (type TableInput()) 
       (belongsTo (idref: 3))
-
+    )
     
 ))
