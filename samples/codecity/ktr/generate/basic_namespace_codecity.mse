@@ -1,0 +1,166 @@
+(Moose.Model 
+(id: 6) 
+(name basic_namespace)
+(entity
+  
+    (FAMIX.Namespace 
+      (id: 7) 
+      (name 'root::samples::basic::one')
+    )
+    
+      (FAMIX.Class 
+        (id: 8) 
+        (name 'Transf_Elastic_Carga_Saude_Familia.ktr')
+        (belongsTo (idref: 7))
+      )
+      
+      (FAMIX.Method 
+        (name 'elastic_cobertura_sf.Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'sf.Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'coberturaSFTable input') 
+        (type 'TableInput()') 
+        (belongsTo (idref: 8))
+      )
+     
+  
+    (FAMIX.Namespace 
+      (id: 9) 
+      (name 'root::samples::basic::many')
+    )
+    
+      (FAMIX.Class 
+        (id: 10) 
+        (name 'Transf_Elastic_Carga_Saude_Familia_uf.ktr')
+        (belongsTo (idref: 9))
+      )
+      
+      (FAMIX.Method 
+        (name 'Select values 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'Strings cut') 
+        (type 'StringCut()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'coberturaSfUf.Table input') 
+        (type 'TableInput()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'id.Add sequence') 
+        (type 'Sequence()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'Execute SQL script') 
+        (type 'ExecSQL()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'Block this step until steps finish') 
+        (type 'BlockUntilStepsFinish()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'tbAnoTempo.Database join') 
+        (type 'DBJoin()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'Concat fields') 
+        (type 'ConcatFields()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'dataCompetencia.Modified JavaScript value') 
+        (type 'ScriptValueMod()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'qtde.Add constants') 
+        (type 'Constant()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'Database join') 
+        (type 'DBJoin()') 
+        (belongsTo (idref: 10))
+      )
+      (FAMIX.Method 
+        (name 'elastic_cobertura_saude_familia_uf.Table output') 
+        (type '') 
+        (belongsTo (idref: 10))
+      )
+    
+      (FAMIX.Class 
+        (id: 11) 
+        (name 'Transf_Elastic_Carga_Saude_Familia.ktr')
+        (belongsTo (idref: 9))
+      )
+      
+      (FAMIX.Method 
+        (name 'elastic_cobertura_sf.Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 11))
+      )
+      (FAMIX.Method 
+        (name 'sf.Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 11))
+      )
+      (FAMIX.Method 
+        (name 'coberturaSFTable input') 
+        (type 'TableInput()') 
+        (belongsTo (idref: 11))
+      )
+    
+      (FAMIX.Class 
+        (id: 12) 
+        (name 'Transf_Elastic_Carga_Saude_Familia_Municipio.ktr')
+        (belongsTo (idref: 9))
+      )
+      
+      (FAMIX.Method 
+        (name 'elastic_cobertura_saude_familia_municipio.Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 12))
+      )
+      (FAMIX.Method 
+        (name 'Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 12))
+      )
+      (FAMIX.Method 
+        (name 'dataCompetencia.Modified JavaScript value 2') 
+        (type 'ScriptValueMod()') 
+        (belongsTo (idref: 12))
+      )
+      (FAMIX.Method 
+        (name 'coberturaSfMunicipio.Table input') 
+        (type 'TableInput()') 
+        (belongsTo (idref: 12))
+      )
+      (FAMIX.Method 
+        (name 'id.Add sequence') 
+        (type 'Sequence()') 
+        (belongsTo (idref: 12))
+      )
+     
+  
+))
