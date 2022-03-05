@@ -6,7 +6,10 @@
             (stub false))
         (FAMIX.Class (id: 3)
             (name 'Transf_Elastic_Carga_Saude_Familia')
-            (belongsTo (idref: 2)))
+            (belongsTo (idref: 2))
+            (NOA 10)
+            (WLOC 1000)
+        )
         (FAMIX.Method
             (name 'coberturaSF')
             (type 'TableInput')
