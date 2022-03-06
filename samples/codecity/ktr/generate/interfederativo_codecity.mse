@@ -13,6 +13,7 @@
         (name 'Transf_Carga_Interfederativo_obito_materno.ktr')
         (NOM 16)
         (NOA 10)
+        (WLOC 190)
         (belongsTo (idref: 2))
       )
       
@@ -102,6 +103,7 @@
         (name 'Transf_Carga_Interfederativo_parto_normal.ktr')
         (NOM 13)
         (NOA 8)
+        (WLOC 156)
         (belongsTo (idref: 2))
       )
       
@@ -176,6 +178,7 @@
         (name 'Transf_Carga_Interfederativo_taxa_mortalidade_infantil.ktr')
         (NOM 13)
         (NOA 8)
+        (WLOC 156)
         (belongsTo (idref: 2))
       )
       
@@ -250,6 +253,7 @@
         (name 'Transf_Carga_Interfederativo_bolsa_familia.ktr')
         (NOM 13)
         (NOA 8)
+        (WLOC 156)
         (belongsTo (idref: 2))
       )
       
@@ -324,6 +328,7 @@
         (name 'Transf_Carga_Interfederativo_gravidez_adolescencia.ktr')
         (NOM 13)
         (NOA 8)
+        (WLOC 156)
         (belongsTo (idref: 2))
       )
       
@@ -398,6 +403,7 @@
         (name 'Transf_Carga_Interfederativo_matriciamento.ktr')
         (NOM 13)
         (NOA 8)
+        (WLOC 156)
         (belongsTo (idref: 2))
       )
       
