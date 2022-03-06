@@ -11,49 +11,460 @@
       (FAMIX.Class 
         (id: 3) 
         (name 'Transf_Carga_Interfederativo_obito_materno.ktr')
-        (NOM 15)
+        (NOM 16)
         (NOA 10)
         (belongsTo (idref: 2))
+      )
+      
+      (FAMIX.Method 
+        (name 'Select values 4') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Add constants') 
+        (type 'Constant()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 4') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Select values 3') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5') 
+        (type 'Constant()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Select values 4 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 2') 
+        (type 'Constant()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 4') 
+        (type 'Constant()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 3') 
+        (type 'Constant()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 4 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 3))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 3') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 3))
       )
     
       (FAMIX.Class 
         (id: 4) 
         (name 'Transf_Carga_Interfederativo_parto_normal.ktr')
-        (NOM 12)
+        (NOM 13)
         (NOA 8)
         (belongsTo (idref: 2))
+      )
+      
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5') 
+        (type 'Constant()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 3') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Select values 4') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 4') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 2') 
+        (type 'Constant()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Select values 3') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 4') 
+        (type 'Constant()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 3') 
+        (type 'Constant()') 
+        (belongsTo (idref: 4))
+      )
+      (FAMIX.Method 
+        (name 'Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 4))
       )
     
       (FAMIX.Class 
         (id: 5) 
         (name 'Transf_Carga_Interfederativo_taxa_mortalidade_infantil.ktr')
-        (NOM 12)
+        (NOM 13)
         (NOA 8)
         (belongsTo (idref: 2))
+      )
+      
+      (FAMIX.Method 
+        (name 'Select values 4') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 4') 
+        (type 'Constant()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 3') 
+        (type 'Constant()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 3') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 4') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5') 
+        (type 'Constant()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Select values 3') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 2') 
+        (type 'Constant()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 5))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 5))
       )
     
       (FAMIX.Class 
         (id: 6) 
         (name 'Transf_Carga_Interfederativo_bolsa_familia.ktr')
-        (NOM 12)
+        (NOM 13)
         (NOA 8)
         (belongsTo (idref: 2))
+      )
+      
+      (FAMIX.Method 
+        (name 'Select values 3 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name '2020') 
+        (type 'Constant()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 3') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Add constants') 
+        (type 'Constant()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 3') 
+        (type 'Constant()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 2') 
+        (type 'Constant()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 3 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 6))
+      )
+      (FAMIX.Method 
+        (name 'Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 6))
       )
     
       (FAMIX.Class 
         (id: 7) 
         (name 'Transf_Carga_Interfederativo_gravidez_adolescencia.ktr')
-        (NOM 12)
+        (NOM 13)
         (NOA 8)
         (belongsTo (idref: 2))
+      )
+      
+      (FAMIX.Method 
+        (name 'Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 3') 
+        (type 'Constant()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 4') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 3') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5') 
+        (type 'Constant()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Select values 4') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 2') 
+        (type 'Constant()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 4') 
+        (type 'Constant()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 7))
+      )
+      (FAMIX.Method 
+        (name 'Select values 3') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 7))
       )
     
       (FAMIX.Class 
         (id: 8) 
         (name 'Transf_Carga_Interfederativo_matriciamento.ktr')
-        (NOM 12)
+        (NOM 13)
         (NOA 8)
         (belongsTo (idref: 2))
+      )
+      
+      (FAMIX.Method 
+        (name 'Select values 4') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5') 
+        (type 'Constant()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 4') 
+        (type 'Constant()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 3') 
+        (type 'Constant()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Select values 2') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Table output') 
+        (type 'TableOutput()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 3') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Add constants 5 2') 
+        (type 'Constant()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Select values 3') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 4') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Microsoft Excel input 2') 
+        (type 'ExcelInput()') 
+        (belongsTo (idref: 8))
+      )
+      (FAMIX.Method 
+        (name 'Select values') 
+        (type 'SelectValues()') 
+        (belongsTo (idref: 8))
       )
      
   
