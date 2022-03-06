@@ -1,0 +1,420 @@
+(Moose.Model 
+(id: 1) 
+(name adc_stick_saps)
+(entity
+  
+    (FAMIX.Namespace 
+      (id: 2) 
+      (name 'root::samples::adc_stick_saps::cadastro')
+    )
+    
+      (FAMIX.Class 
+        (id: 3) 
+        (name 'Desempenho_checa_indice.ktr')
+        (NOM 16)
+        (NOA 1)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 4) 
+        (name 'Transf_Carga_Cadastro_Geral_2de3.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 5) 
+        (name 'Transf_Carga_Cadastro_Geral_3de3.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 6) 
+        (name 'Transf_Carga_Cadastro_Geral_Beneficiario_Cnes.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 7) 
+        (name 'Restrito_Equipes_checa_indice.ktr')
+        (NOM 16)
+        (NOA 1)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 8) 
+        (name 'Transf_Carga_Cadastro_Geral_1de3.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 9) 
+        (name 'Transf_Carga_Cadastro_Geral_Beneficiario_BrasilEstado.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 10) 
+        (name 'Transf_Carga_Cadastro_Geral_Beneficiario_Regiao_Ibge.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 11) 
+        (name 'Restrito_Cadastro_00_checa_indice.ktr')
+        (NOM 16)
+        (NOA 1)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 12) 
+        (name 'Transf_Carga_Cadastro_Geral_Beneficiario_Ine.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 2))
+      )
+    
+      (FAMIX.Class 
+        (id: 13) 
+        (name 'Cadastro_00_checa_indice.ktr')
+        (NOM 16)
+        (NOA 1)
+        (belongsTo (idref: 2))
+      )
+     
+  
+    (FAMIX.Namespace 
+      (id: 14) 
+      (name 'root::samples::adc_stick_saps::regiao_saude')
+    )
+    
+      (FAMIX.Class 
+        (id: 15) 
+        (name 'Transf_atualiza_colegiado_gestao.ktr')
+        (NOM 3)
+        (NOA 4)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 16) 
+        (name 'Transf_atualiza_the_geom.ktr')
+        (NOM 0)
+        (NOA 0)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 17) 
+        (name 'Transf_atualiza_latlong.ktr')
+        (NOM 0)
+        (NOA 0)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 18) 
+        (name 'Transf_atualiza_the_geom2.ktr')
+        (NOM 2)
+        (NOA 1)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 19) 
+        (name 'Transf_atualiza_colegiado.ktr')
+        (NOM 3)
+        (NOA 3)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 20) 
+        (name 'Transf_cria_campo_the_geom_text.ktr')
+        (NOM 0)
+        (NOA 0)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 21) 
+        (name 'transf_regiao_saude.ktr')
+        (NOM 2)
+        (NOA 3)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 22) 
+        (name 'Transf_atualiza_the_geom_the_geom2.ktr')
+        (NOM 1)
+        (NOA 1)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 23) 
+        (name 'Transf_cria_tb_ibge_colegiado_regioes.ktr')
+        (NOM 1)
+        (NOA 2)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 24) 
+        (name 'Transf_drop_campo_the_geom_text.ktr')
+        (NOM 0)
+        (NOA 0)
+        (belongsTo (idref: 14))
+      )
+    
+      (FAMIX.Class 
+        (id: 25) 
+        (name 'Transf_atualiza_ms_ibge.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 14))
+      )
+     
+  
+    (FAMIX.Namespace 
+      (id: 26) 
+      (name 'root::samples::adc_stick_saps::interfederativo')
+    )
+    
+      (FAMIX.Class 
+        (id: 27) 
+        (name 'Transf_Carga_Interfederativo_obito_materno.ktr')
+        (NOM 15)
+        (NOA 10)
+        (belongsTo (idref: 26))
+      )
+    
+      (FAMIX.Class 
+        (id: 28) 
+        (name 'Transf_Carga_Interfederativo_parto_normal.ktr')
+        (NOM 12)
+        (NOA 8)
+        (belongsTo (idref: 26))
+      )
+    
+      (FAMIX.Class 
+        (id: 29) 
+        (name 'Transf_Carga_Interfederativo_taxa_mortalidade_infantil.ktr')
+        (NOM 12)
+        (NOA 8)
+        (belongsTo (idref: 26))
+      )
+    
+      (FAMIX.Class 
+        (id: 30) 
+        (name 'Transf_Carga_Interfederativo_bolsa_familia.ktr')
+        (NOM 12)
+        (NOA 8)
+        (belongsTo (idref: 26))
+      )
+    
+      (FAMIX.Class 
+        (id: 31) 
+        (name 'Transf_Carga_Interfederativo_gravidez_adolescencia.ktr')
+        (NOM 12)
+        (NOA 8)
+        (belongsTo (idref: 26))
+      )
+    
+      (FAMIX.Class 
+        (id: 32) 
+        (name 'Transf_Carga_Interfederativo_matriciamento.ktr')
+        (NOM 12)
+        (NOA 8)
+        (belongsTo (idref: 26))
+      )
+     
+  
+    (FAMIX.Namespace 
+      (id: 33) 
+      (name 'root::samples::adc_stick_saps::ICSAP::temp')
+    )
+    
+      (FAMIX.Class 
+        (id: 34) 
+        (name 'ICSAP_OCDE_checa_indice.ktr')
+        (NOM 17)
+        (NOA 1)
+        (belongsTo (idref: 33))
+      )
+    
+      (FAMIX.Class 
+        (id: 35) 
+        (name 'Transf_Processa_Variavel_portaria_221.ktr')
+        (NOM 11)
+        (NOA 4)
+        (belongsTo (idref: 33))
+      )
+    
+      (FAMIX.Class 
+        (id: 36) 
+        (name 'Transf_verifica_cids.ktr')
+        (NOM 1)
+        (NOA 2)
+        (belongsTo (idref: 33))
+      )
+    
+      (FAMIX.Class 
+        (id: 37) 
+        (name 'Transf_Processa_Variavel_ocde.ktr')
+        (NOM 10)
+        (NOA 4)
+        (belongsTo (idref: 33))
+      )
+    
+      (FAMIX.Class 
+        (id: 38) 
+        (name 'ICSAP_PORT_221_checa_indice.ktr')
+        (NOM 17)
+        (NOA 1)
+        (belongsTo (idref: 33))
+      )
+    
+      (FAMIX.Class 
+        (id: 39) 
+        (name 'Transf_icsap_ocde_causas_sensiveis_denominador_ibge_ano_sexo.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 33))
+      )
+    
+      (FAMIX.Class 
+        (id: 40) 
+        (name 'Transf_icsap_port_221_causas_sensiveis_denominador_ibge_ano_sexo.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 33))
+      )
+     
+  
+    (FAMIX.Namespace 
+      (id: 41) 
+      (name 'root::samples::adc_stick_saps::ICSAP')
+    )
+    
+      (FAMIX.Class 
+        (id: 42) 
+        (name 'Transf_Nao_Icsap_Port_221.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 43) 
+        (name 'Transf_Icsap_Port_221_causas_sensiveis_denominador.ktr')
+        (NOM 3)
+        (NOA 3)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 44) 
+        (name 'Transf_icsap_port_221_causas_sensiveis_numerador.ktr')
+        (NOM 3)
+        (NOA 3)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 45) 
+        (name 'Transf_verifica_cids.ktr')
+        (NOM 2)
+        (NOA 4)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 46) 
+        (name 'Transf_icsap_port_221_causas_sensiveis_numerador_brasil.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 47) 
+        (name 'Transf_icsap_port_221_causas_sensiveis_numerador_icsap_brasil.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 48) 
+        (name 'Transf_Nao_Icsap_Port_221_brasil_fiocruz.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 49) 
+        (name 'Transf_Nao_Icsap_ocde.ktr')
+        (NOM 3)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 50) 
+        (name 'Transf_Nao_Icsap_Port_221_icsap_brasil.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 51) 
+        (name 'Transf_icsap_ocde_causas_sensiveis_numerador.ktr')
+        (NOM 4)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 52) 
+        (name 'Transf_Processa_Variavel.ktr')
+        (NOM 3)
+        (NOA 3)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 53) 
+        (name 'Transf_icsap_port_221_causas_sensiveis_numerador_brasil_fiocruz.ktr')
+        (NOM 2)
+        (NOA 2)
+        (belongsTo (idref: 41))
+      )
+    
+      (FAMIX.Class 
+        (id: 54) 
+        (name 'Transf_Lista_indicador.ktr')
+        (NOM 1)
+        (NOA 1)
+        (belongsTo (idref: 41))
+      )
+     
+  
+))
